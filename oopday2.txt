@@ -1,0 +1,61 @@
+Given an entity named Television, identify its attributes and explain how will you do Abstraction? 
+
+Attributes of Television
+Display
+Remote
+Set Top Box
+TV buttons
+Cable
+Plugin wires
+
+We can achieve abstraction by hiding internals of remote and set top box and circuit design
+
+
+Given an entity named Hospital, explain Encapsulation with respect to it 
+
+Departments of Hospital
+Patient
+Security
+Reception
+Doctors
+Health Technician
+Pharmacy
+Billing
+
+These all different departments are encapsulated into a single unit called Hospital
+
+
+Given an entity named Traffic Signal, explain Polymorphism with respect to it. 
+
+Traffic Signal is used to control traffic, here the traffic light display consists of single LED panel, does multiple works like displays red, orange, green which has different functionalities
+
+
+
+Given an entity named Broad Band Connection, explain inheritance with respect to it. 
+ 
+Let us take an example of FM radio, here a main station works as parent class and child classes can be  gives connections to multiple televisions, here we can observe a hierarchy, while connection is passing through this process, we can observe inheritance in it
+
+
+Given an entity named Mobile Phone, identify its static & dynamic attributes. 
+
+The Static attributes
+Mobile Screen 
+Mobile Body
+Body Dimensions
+Circuit
+Memory Card
+
+
+The Dynamic attributes
+
+Battery Percentage	
+Network
+Storage Status
+Performance
+OS
+Applications
+
+
+
+
+

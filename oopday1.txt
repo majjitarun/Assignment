@@ -1,0 +1,115 @@
+ASSIGNMENT 1
+Write a algorithm and pseudocode to determine whether a person is eligible to vote or not given his/her age. The voting eligibility criteria is that the person’s age must be >= 18. 
+
+STEP1: START
+STEP2: Initialize a variable int type a
+STEP3: if age is greater than or equal to 18 return true
+STEP4: display the person is eligible to vote 
+STEP5: else, display the person is not eligible to vote
+STEP6: STOP
+
+Pseudocode
+
+START
+Input age=a
+Enter age
+if a>= 18 return True;
+else
+return False;
+STOP
+
+
+
+
+ASSIGNMENT 2
+Write a algorithm and pseudocode to determine whether a number is a prime number or not. 
+
+STEP1: START
+STEP2: Initialize a variable x
+STEP3: If number is equal to 0 or 1, return false
+STEP4: If number is divisible by x, return false
+STEP5: If number is equal to x, return true
+STEP6: STOP
+
+Pseudocode
+
+
+
+
+ASSIGNMENT 3
+Write a algorithm and pseudocode to reverse the digits of a number.
+
+Algorithm
+STEP1: START
+STEP2: Input from user, number
+STEP3: Initialize reverse=0
+STEP4: multiply number by 10 and add remainder of number, divide by 10 to number
+STEP5: Reverse of number is displayed
+STEP6: STOP
+
+
+
+
+Pseudocode
+
+Start
+Declaration Number Reverse Rem =0
+Enter the Number
+WHILE(n!=0)
+Rem=n%10
+Reverse=reverse*10+rem
+N=n/10
+Reverse Number 
+Stop
+
+ 
+
+ASSIGNMENT 4
+Write a algorithm and pseudocode to find the factorial of a given number
+
+Algorithm
+STEP1: START
+STEP2: Declare variable n, fact, i
+STEP3: read number from user
+STEP4: Initialize variable fact=1 and x=1
+STEP5: repeat until i<=number
+STEP6: fact=fact*i
+STEP7: print fact
+STEP8: STOP
+
+Pseudocode
+Start
+Input I,Fact=1,number
+Enter the number
+For(i=1;i<=number;i++)
+fact=fact*1
+End loop
+Factorial of %d ,number, Fact
+END
+
+
+
+ASSIGNMENT 5
+Write a algorithm and pseudocode to count the number of vowels in the string CITIUSTECH. 
+
+Algorithm
+STEP1: START
+STEP2: Store the string “aeiouAEIOU” in a variable
+STEP3: Initialize count=0
+STEP4: Iterate for each value
+STEP5: If value in string variable matches with values vowels
+STEP6: STOP
+
+
+
+Pseudocode
+
+Start
+Given STRING word[10]
+Count=0, i
+STRING word=”CITIUSTECH”
+WHILE (word[i]!=null)
+IF ((word[i]==’A’|| word[i]==’E’|| word[i]==’I’|| word[i]==’O’|| word[i]==’U’|| word[i]==’a’|| word[i]==’e’|| word[i]==’i’|| word[i]==’o’|| word[i]==’u’||))
+++count
+DISPLAY number of vowels in the word
+Stop

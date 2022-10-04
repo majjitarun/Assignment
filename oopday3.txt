@@ -1,0 +1,31 @@
+1.Given a class named Patient, identify what instance methods could be written in this class 
+METHODS:
+· Patient Details (): used to get all the details of patients.
+· Tests Required (): includes all the test required.
+· Billing Details (): contains total charge of the patient.
+· Reports Storage (): includes all the reports of disease of that patient to be stored for future use.
+
+
+2.Given a class named CPU, identify the public & private instance members
+PUBLIC: Details of CPU speed, launch data, core count, memory speed, chipset etc. can be public.
+PRIVATE: The spec design, the coding used to develop
+
+3.Given a class named Media, assume there are 3 objects of this class. Identify the static members of this class. 
+The object of media can be print media, broadcast media, internet media.
+Static member of Class Media:
+Medium (internet, paper, broadcast), language, news type (sports, politics etc..) .
+
+4.Given a class named Calculator & its derived classes named Standard and Scientific, identify the method which can be overridden by the derived classes
+The normal calculator and the scientific calculator contain some common methods including:
+· Addition ()
+· Subtraction ()
+· Division ()
+· Multiplication ()
+· Is Equal ()
+These methods can be overridden.
+
+5.Given the classes Bird, Superman, Aeroplane and Missile, identify the usage of interfaces here.
+Interfaces here are,
+· The common interfaces for all the class are “flight.”
+· Bird and superman can have interfaces like, they both are living things so food, oxygen, shelter.
+· Common interfaces between Aeroplan and missile would be fuel, operator.

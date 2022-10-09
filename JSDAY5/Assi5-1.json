@@ -1,0 +1,16 @@
+[{
+    "ability": "Overgrow",
+    "category": "Seed" , 
+    "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger." ,
+    "gender": "M" ,
+    "generation":  "First",
+    "height": "2' 04'",
+    "id": 1 ,
+    "name": "Bulbasaur",
+    "picture": "bulbasaur.jpg",
+    "type": "Grass, Poison",
+    "region": "Kanto",
+    "weakness": "Fire, Flying, Ice, Psychic",
+    "weight": "15.2"
+  }]
+  

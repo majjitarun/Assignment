@@ -1,0 +1,28 @@
+<!-- 2): Create an HTML5 page which makes a jQuery AJAX GET request to the above-mentioned URL & display all titles inside a dropdown list. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+    <div id="display">
+        <select name="value" id="selection" list="datalist"></select>
+    </div>
+    <script>
+        $.getJSON('https://jsonplaceholder.typicode.com/todos',
+        function(res){
+            res.forEach(element => {
+                title = document.createTextNode(element.title);
+                myOption = document.createElement('option');
+                myOption.appendChild(title);
+                $("#selection").append(myOption);
+            });
+
+        })
+    </script>
+    
+</body>
+</html>
